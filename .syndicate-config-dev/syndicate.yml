@@ -1,0 +1,17 @@
+account_id: '376129861747'
+deploy_target_bucket: syndicate-education-platform-custom-sandbox-artifacts-6620/5d524740/task04
+expiration: 2025-03-12 07:54:19.903037+00:00
+extended_prefix_mode: true
+iam_permissions_boundary: undefined
+project_path: C:\Grace_Vincy\AWS\AWS_Vincy
+region: eu-west-1
+resources_prefix: cmtr-5d524740-
+tags:
+  run_id: JAP-08
+  run_type: stm
+  type: user
+  user_id: 5d524740
+temp_aws_access_key_id: ASIAVPEYWHBZRLUZ34D6
+temp_aws_secret_access_key: GkiZvLLLezpx7OVUi7maV7OB6O9eWsoQWA9KZNXd
+temp_aws_session_token: IQoJb3JpZ2luX2VjEG8aCXVzLWVhc3QtMSJGMEQCIBxgYP76BtO8efaXoYlpvE1MNLaEx0TOnp3TMCdDqyW5AiAJavECziwl7cgyFEqcCdsWqCr6nzG27Tcbj+A5ooDIEirlAgi4//////////8BEAAaDDM3NjEyOTg2MTc0NyIM9E7quqPcsXFSDg73KrkC0GM44JHWX3PZEEP+rc3U8xkwWIIulO+R/iMFNz/TS1eX9SMQuyF975oPds52dosRB/ySLSCZSPm4mB2qxkSW6ptju22Wft6dMrb7FSkAERg0iIMPbElqn/yrO9orusTxCmkuZ3KnPjV4umgYfCr3miRsEv6ERKhfVDqEeFMQ7wAHLZG41hhLF5BAHer3nfNV9BOSFzcVWMvieB34ONXJ3jmEmomj/M0VFBwXtQ+oBiiBcWNshEoaOJfTWb8h41OflSJH8liSLAcH921SDQDp/PSeyoeXKU7aU4c6NYGOmpBTKf3bxteAZJnVNGY6I3Kaa8uNb0CnDlIM5aR6uEcHOICmtjxVauBOXUBXTpSv1svgUu8Hi0Y+f+eWaXAanPkYU60x6YDyl+o02kvHjUIyyrL6YRDNZDhNzjCa2cS+BjqeAel05+V4++oIGcfxRe98+dNgmbqI/jwpteydcaxkXQ9czP8toX2iJ+STjNUtFIPOWn9H3NM9c1TnOMJnXEAnsSOwC4Bpc0/IfxnVDpq7P6WQ4M/gz0dvQdn+5Zp04NtRdnkBJlRJMZMeos7DstJqx4uXCpkBRbrnKxRdTCtdC7FLdTe4th0ITB9LcL13tGzgvdxQGVJ+dekIdwg/wpyi
+use_temp_creds: false

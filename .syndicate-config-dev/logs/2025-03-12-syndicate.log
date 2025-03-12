@@ -1,0 +1,480 @@
+2025-03-12 12:34:38,037 [INFO] USER:gongatyvincy_grace handlers.py:106:syndicate LOG: Configuration used: C:\Grace_Vincy\AWS\AWS_Vincy\.syndicate-config-dev
+2025-03-12 12:34:40,263 [WARNING] USER:gongatyvincy_grace __init__.py:190:initialize_project_state LOG: [93mConfig is set and generated but project state does not exist, seems that you've come from the previous version.[0m
+2025-03-12 12:34:40,264 [WARNING] USER:gongatyvincy_grace __init__.py:193:initialize_project_state LOG: [93mGenerating project state file (.syndicate) from the existing structure...[0m
+2025-03-12 12:34:40,268 [INFO] USER:gongatyvincy_grace processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 12:34:41,842 [INFO] USER:gongatyvincy_grace project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 12:34:41,843 [INFO] USER:gongatyvincy_grace project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 12:34:42,633 [INFO] USER:gongatyvincy_grace sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 12:34:44,337 [INFO] USER:gongatyvincy_grace handlers.py:142:test LOG: Running tests...
+2025-03-12 12:34:44,337 [INFO] USER:gongatyvincy_grace handlers.py:150:test LOG: Tests not found, 'tests' folder is missing in 'C:/Grace_Vincy/AWS/AWS_Vincy'.
+2025-03-12 12:34:44,337 [INFO] USER:gongatyvincy_grace helper.py:330:timed LOG: Stage test, elapsed time: 0:00:00.000732
+2025-03-12 12:34:44,398 [INFO] USER:gongatyvincy_grace handlers.py:993:assemble LOG: Building artifacts, bundle: AWS_Vincy_250312.123442
+2025-03-12 12:34:44,399 [INFO] USER:gongatyvincy_grace project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Grace_Vincy\AWS\AWS_Vincy\jsrc\main\java\com\AWSVincy.
+2025-03-12 12:34:44,399 [INFO] USER:gongatyvincy_grace project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Grace_Vincy\AWS\AWS_Vincy\src\lambdas.
+2025-03-12 12:34:44,399 [INFO] USER:gongatyvincy_grace project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Grace_Vincy\AWS\AWS_Vincy\app\lambdas.
+2025-03-12 12:34:44,400 [INFO] USER:gongatyvincy_grace project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Grace_Vincy\AWS\AWS_Vincy\dnapp\lambdas.
+2025-03-12 12:34:44,400 [INFO] USER:gongatyvincy_grace project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Grace_Vincy\AWS\AWS_Vincy\swagger_src.
+2025-03-12 12:34:44,400 [INFO] USER:gongatyvincy_grace project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Grace_Vincy\AWS\AWS_Vincy\appsync_src.
+2025-03-12 12:34:44,400 [INFO] USER:gongatyvincy_grace handlers.py:1014:assemble LOG: Resources for which artifacts need to be built were not found
+2025-03-12 12:34:44,401 [INFO] USER:gongatyvincy_grace helper.py:330:timed LOG: Stage assemble, elapsed time: 0:00:00.002605
+2025-03-12 12:34:44,456 [INFO] USER:gongatyvincy_grace handlers.py:1037:package_meta LOG: Package meta, bundle: AWS_Vincy_250312.123442
+2025-03-12 12:34:44,456 [INFO] USER:gongatyvincy_grace meta_processor.py:513:create_meta LOG: Bundle path: C:/Grace_Vincy/AWS/AWS_Vincy/bundles/AWS_Vincy_250312.123442
+2025-03-12 12:34:44,465 [INFO] USER:gongatyvincy_grace helper.py:292:write_content_to_file LOG: C:\Grace_Vincy\AWS\AWS_Vincy\.syndicate-config-dev/bundles/AWS_Vincy_250312.123442\build_meta.json file was created.
+2025-03-12 12:34:44,465 [INFO] USER:gongatyvincy_grace handlers.py:1040:package_meta LOG: Meta was configured successfully.
+2025-03-12 12:34:44,466 [INFO] USER:gongatyvincy_grace helper.py:330:timed LOG: Stage package_meta, elapsed time: 0:00:00.010119
+2025-03-12 12:34:44,785 [INFO] USER:gongatyvincy_grace handlers.py:1083:upload LOG: Upload bundle: AWS_Vincy_250312.123442
+2025-03-12 12:34:45,199 [INFO] USER:gongatyvincy_grace bundle_processor.py:232:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2025-03-12 12:34:45,590 [INFO] USER:gongatyvincy_grace handlers.py:1090:upload LOG: Bundle was uploaded successfully
+2025-03-12 12:34:45,590 [INFO] USER:gongatyvincy_grace helper.py:330:timed LOG: Stage upload, elapsed time: 0:00:01.070430
+2025-03-12 12:34:45,659 [INFO] USER:gongatyvincy_grace helper.py:330:timed LOG: Stage build, elapsed time: 0:00:03.025948
+2025-03-12 12:34:56,274 [INFO] USER:gongatyvincy_grace handlers.py:106:syndicate LOG: Configuration used: C:\Grace_Vincy\AWS\AWS_Vincy\.syndicate-config-dev
+2025-03-12 12:34:58,604 [INFO] USER:gongatyvincy_grace processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 12:35:00,326 [INFO] USER:gongatyvincy_grace project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 12:35:00,326 [INFO] USER:gongatyvincy_grace project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 12:35:01,268 [INFO] USER:gongatyvincy_grace sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 12:35:01,743 [INFO] USER:gongatyvincy_grace project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 12:35:01,743 [INFO] USER:gongatyvincy_grace project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 12:35:02,806 [INFO] USER:gongatyvincy_grace sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 12:35:02,807 [INFO] USER:gongatyvincy_grace helper.py:233:resolve_default_value LOG: Resolved value of deploy_name: aws-vincy
+2025-03-12 12:35:03,264 [INFO] USER:gongatyvincy_grace project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 12:35:03,265 [INFO] USER:gongatyvincy_grace project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 12:35:04,135 [INFO] USER:gongatyvincy_grace sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 12:35:04,136 [INFO] USER:gongatyvincy_grace helper.py:233:resolve_default_value LOG: Resolved value of bundle_name: AWS_Vincy_250312.123442
+2025-03-12 12:35:04,584 [INFO] USER:gongatyvincy_grace project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 12:35:04,584 [INFO] USER:gongatyvincy_grace project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 12:35:05,366 [INFO] USER:gongatyvincy_grace sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 12:35:05,924 [INFO] USER:gongatyvincy_grace project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 12:35:05,924 [INFO] USER:gongatyvincy_grace project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 12:35:06,645 [INFO] USER:gongatyvincy_grace sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 12:35:08,952 [INFO] USER:gongatyvincy_grace deployment_processor.py:451:create_deployment_resources LOG: The latest deployment has status failed. Loaded output:
+ {
+    "arn:aws:iam::376129861747:policy/cmtr-5d524740-lambda-basic-execution": {
+        "resource_name": "cmtr-5d524740-lambda-basic-execution",
+        "resource_meta": {
+            "policy_content": {
+                "Statement": [
+                    {
+                        "Action": [
+                            "logs:CreateLogGroup",
+                            "logs:CreateLogStream",
+                            "logs:PutLogEvents",
+                            "dynamodb:GetItem",
+                            "dynamodb:Query",
+                            "dynamodb:PutItem",
+                            "dynamodb:Batch*",
+                            "dynamodb:DeleteItem",
+                            "ssm:PutParameter",
+                            "ssm:GetParameter",
+                            "kms:Decrypt",
+                            "sqs:ReceiveMessage",
+                            "sqs:DeleteMessage",
+                            "sqs:GetQueueAttributes"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": "*"
+                    }
+                ],
+                "Version": "2012-10-17"
+            },
+            "resource_type": "iam_policy",
+            "tags": {
+                "run_id": "JAP-08",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "5d524740"
+            }
+        },
+        "description": {
+            "PolicyName": "cmtr-5d524740-lambda-basic-execution",
+            "PolicyId": "ANPAVPEYWHBZZHWGZ4UX3",
+            "Path": "/",
+            "DefaultVersionId": "v1",
+            "AttachmentCount": 0,
+            "PermissionsBoundaryUsageCount": 0,
+            "IsAttachable": true,
+            "CreateDate": "2025-03-11T09:32:47+00:00",
+            "UpdateDate": "2025-03-11T09:32:47+00:00",
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-08"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "5d524740"
+                }
+            ]
+        }
+    },
+    "arn:aws:iam::376129861747:role/cmtr-5d524740-sns_handler-role": {
+        "resource_name": "cmtr-5d524740-sns_handler-role",
+        "resource_meta": {
+            "predefined_policies": [],
+            "principal_service": "lambda",
+            "custom_policies": [
+                "cmtr-5d524740-lambda-basic-execution"
+            ],
+            "resource_type": "iam_role",
+            "tags": {
+                "run_id": "JAP-08",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "5d524740"
+            }
+        },
+        "description": {
+            "Path": "/",
+            "RoleName": "cmtr-5d524740-sns_handler-role",
+            "RoleId": "AROAVPEYWHBZSXFJMYOX3",
+            "CreateDate": "2025-03-11T09:32:48+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "lambda.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-08"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "5d524740"
+                }
+            ]
+        }
+    },
+    "arn:aws:iam::376129861747:role/cmtr-5d524740-sqs_handler-role": {
+        "resource_name": "cmtr-5d524740-sqs_handler-role",
+        "resource_meta": {
+            "predefined_policies": [],
+            "principal_service": "lambda",
+            "custom_policies": [
+                "cmtr-5d524740-lambda-basic-execution"
+            ],
+            "resource_type": "iam_role",
+            "tags": {
+                "run_id": "JAP-08",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "5d524740"
+            }
+        },
+        "description": {
+            "Path": "/",
+            "RoleName": "cmtr-5d524740-sqs_handler-role",
+            "RoleId": "AROAVPEYWHBZXGJWDGSJI",
+            "CreateDate": "2025-03-11T09:32:49+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "lambda.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-08"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "5d524740"
+                }
+            ]
+        }
+    },
+    "arn:aws:sqs:eu-west-1:376129861747:cmtr-5d524740-async_queue": {
+        "resource_name": "cmtr-5d524740-async_queue",
+        "resource_meta": {
+            "resource_type": "sqs_queue",
+            "fifo_queue": false,
+            "visibility_timeout": 150,
+            "delay_seconds": 0,
+            "maximum_message_size": 1024,
+            "message_retention_period": 60,
+            "receive_message_wait_time_seconds": 0,
+            "policy": {},
+            "redrive_policy": {},
+            "content_based_deduplication": false,
+            "tags": {
+                "run_id": "JAP-08",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "5d524740"
+            },
+            "region": "eu-west-1"
+        },
+        "description": {
+            "Attributes": {
+                "QueueArn": "arn:aws:sqs:eu-west-1:376129861747:cmtr-5d524740-async_queue",
+                "ApproximateNumberOfMessages": "0",
+                "ApproximateNumberOfMessagesNotVisible": "0",
+                "ApproximateNumberOfMessagesDelayed": "0",
+                "CreatedTimestamp": "1741685590",
+                "LastModifiedTimestamp": "1741685590",
+                "VisibilityTimeout": "150",
+                "MaximumMessageSize": "1024",
+                "MessageRetentionPeriod": "60",
+                "DelaySeconds": "0",
+                "ReceiveMessageWaitTimeSeconds": "0",
+                "SqsManagedSseEnabled": "true"
+            },
+            "ResponseMetadata": {
+                "RequestId": "346f4d9f-f95b-547b-bd26-2dd5fccdc4ff",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amzn-requestid": "346f4d9f-f95b-547b-bd26-2dd5fccdc4ff",
+                    "date": "Tue, 11 Mar 2025 09:33:10 GMT",
+                    "content-type": "text/xml",
+                    "content-length": "1249",
+                    "connection": "keep-alive"
+                },
+                "RetryAttempts": 0
+            }
+        }
+    },
+    "arn:aws:lambda:eu-west-1:376129861747:function:cmtr-5d524740-sns_handler:dev": {
+        "resource_name": "cmtr-5d524740-sns_handler",
+        "resource_meta": {
+            "version": "1.0",
+            "name": "cmtr-5d524740-sns_handler",
+            "func_name": "lambdas/sns_handler/index.handler",
+            "resource_type": "lambda",
+            "iam_role_name": "cmtr-5d524740-sns_handler-role",
+            "runtime": "nodejs20.x",
+            "memory": 128,
+            "timeout": 100,
+            "lambda_path": "lambdas\\sns_handler",
+            "dependencies": [],
+            "event_sources": [],
+            "env_variables": {},
+            "publish_version": true,
+            "alias": "dev",
+            "url_config": {},
+            "ephemeral_storage": 512,
+            "tags": {
+                "run_id": "JAP-08",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "5d524740"
+            },
+            "s3_path": "task04_250311.150224/sns_handler-1.0.zip",
+            "region": "eu-west-1"
+        },
+        "description": {
+            "ResponseMetadata": {
+                "RequestId": "c4bc86af-6ea5-48aa-8836-727fe4164df0",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "date": "Tue, 11 Mar 2025 09:33:18 GMT",
+                    "content-type": "application/json",
+                    "content-length": "2880",
+                    "connection": "keep-alive",
+                    "x-amzn-requestid": "c4bc86af-6ea5-48aa-8836-727fe4164df0"
+                },
+                "RetryAttempts": 0
+            },
+            "Configuration": {
+                "FunctionName": "cmtr-5d524740-sns_handler",
+                "Runtime": "nodejs20.x",
+                "Role": "arn:aws:iam::376129861747:role/cmtr-5d524740-sns_handler-role",
+                "Handler": "lambdas/sns_handler/index.handler",
+                "CodeSize": 1498,
+                "Description": " ",
+                "Timeout": 100,
+                "MemorySize": 128,
+                "LastModified": "2025-03-11T09:33:14.031+0000",
+                "CodeSha256": "sn0MWRZwjI8IDKTntuppqjr62rkaC0cEaDdtDljCuXM=",
+                "Version": "$LATEST",
+                "TracingConfig": {
+                    "Mode": "PassThrough"
+                },
+                "RevisionId": "e3e7b725-d49b-4856-b955-dd2cd9b06e6c",
+                "Layers": [],
+                "State": "Pending",
+                "StateReason": "The function is being created.",
+                "StateReasonCode": "Creating",
+                "PackageType": "Zip",
+                "Architectures": [
+                    "x86_64"
+                ],
+                "EphemeralStorage": {
+                    "Size": 512
+                },
+                "SnapStart": {
+                    "ApplyOn": "None",
+                    "OptimizationStatus": "Off"
+                },
+                "RuntimeVersionConfig": {
+                    "RuntimeVersionArn": "arn:aws:lambda:eu-west-1::runtime:9d084cce5cc7578c503eb8fe4bf7891c94c8f5f0ccb036f3f8c3a01cf5212db6"
+                }
+            },
+            "Code": {
+                "RepositoryType": "S3",
+                "Location": "https://awslambda-eu-west-1-tasks.s3.eu-west-1.amazonaws.com/snapshots/376129861747/cmtr-5d524740-sns_handler-e21d1bce-8904-4213-9ff6-3b38843ffaed?versionId=JxQiQ7YCNuNvRvcpcZFGGtmkIl88xmdp&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaCWV1LXdlc3QtMSJHMEUCIEaVDxPbEkRzkOl5tiQGfY2iTvgESO%2FUqr%2FCZw5yNJeoAiEA8PIb6IrMxRDkIbQ6SbM8VwgPOZi%2FyELrBaF2dUuC0mkqkgIImf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgw5NTQzNjkwODI1MTEiDITN9hwcIyZFtnABwSrmAZFyUw%2FLqpgCzuKu1K8Cbz1yQCIE5m4bzkBM0Rfu%2FWeKTAGkpldLDVwQ%2BS87hkSHnDvGgV51sHiBPqiH84Q9a3KTpbvt1J3PTQck6nxnEUNy51oxMmOWYPYsU4yRnVpAugSKT1Y0lJ5ZCk1VclQdFFeAPy5l607UdCHGCKtFQ2tOB3qZ4fBRVf%2Fg%2F1BN98Grewb29J%2Bu%2Buylz58Zlb%2BDz4z3K%2Fp3v4IOPc842jFfoA1hSyZOpK3g0zhAfZ3dF89VYfHQsnK2zMokVGWTaIDADabK5LAYwP0UmVHGFKSYsRwYqUmWV0FfMKD9vb4GOo8B4xu343e4rZptF1JNtabqDSd%2BX8iD3IP4CQ6eiawgIt9k444lFA%2Fxf4Nmpb0PjFnn%2FyQAOW43gJaYEg%2FSmr1bSJNrVpqi6FDz84%2B%2F2UWnKThRalatxCNY4%2BAZDojajWw0YMy3YApL4guiqTNAR5T9hpLMaMOqdiaX%2Fe1tCo2zh%2FCYjM0B5TMwHR8iDh9bSXQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250311T093318Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA54NGUQSHSH5WECJC%2F20250311%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=abc584e22088d9bfb6f2eb311af7e18124ed727d367f6f06a29d4727eb83f3fe"
+            },
+            "Tags": {
+                "run_id": "JAP-08",
+                "user_id": "5d524740",
+                "run_type": "stm",
+                "type": "user"
+            }
+        }
+    },
+    "arn:aws:lambda:eu-west-1:376129861747:function:cmtr-5d524740-sqs_handler:dev": {
+        "resource_name": "cmtr-5d524740-sqs_handler",
+        "resource_meta": {
+            "version": "1.0",
+            "name": "cmtr-5d524740-sqs_handler",
+            "func_name": "lambdas/sqs_handler/index.handler",
+            "resource_type": "lambda",
+            "iam_role_name": "cmtr-5d524740-sqs_handler-role",
+            "runtime": "nodejs20.x",
+            "memory": 128,
+            "timeout": 100,
+            "lambda_path": "lambdas\\sqs_handler",
+            "dependencies": [],
+            "event_sources": [
+                {
+                    "resource_type": "sns_topic_trigger",
+                    "target_topic": "cmtr-5d524740-lambda_topic",
+                    "region": "eu-central-1"
+                }
+            ],
+            "env_variables": {},
+            "publish_version": true,
+            "alias": "dev",
+            "url_config": {},
+            "ephemeral_storage": 512,
+            "tags": {
+                "run_id": "JAP-08",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "5d524740"
+            },
+            "s3_path": "task04_250311.150224/sqs_handler-1.0.zip",
+            "region": "eu-west-1"
+        },
+        "description": {
+            "ResponseMetadata": {
+                "RequestId": "7081ec37-c565-4899-b0bd-c992bb5abd0e",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "date": "Tue, 11 Mar 2025 09:33:18 GMT",
+                    "content-type": "application/json",
+                    "content-length": "2886",
+                    "connection": "keep-alive",
+                    "x-amzn-requestid": "7081ec37-c565-4899-b0bd-c992bb5abd0e"
+                },
+                "RetryAttempts": 0
+            },
+            "Configuration": {
+                "FunctionName": "cmtr-5d524740-sqs_handler",
+                "Runtime": "nodejs20.x",
+                "Role": "arn:aws:iam::376129861747:role/cmtr-5d524740-sqs_handler-role",
+                "Handler": "lambdas/sqs_handler/index.handler",
+                "CodeSize": 1661,
+                "Description": " ",
+                "Timeout": 100,
+                "MemorySize": 128,
+                "LastModified": "2025-03-11T09:33:14.247+0000",
+                "CodeSha256": "1c64+wpYlaoSjR3Umu+1cXK8cmNfXQDo3tjyj1pG284=",
+                "Version": "$LATEST",
+                "TracingConfig": {
+                    "Mode": "PassThrough"
+                },
+                "RevisionId": "1c8ea107-51a6-4eda-8977-1f1c134ce611",
+                "Layers": [],
+                "State": "Pending",
+                "StateReason": "The function is being created.",
+                "StateReasonCode": "Creating",
+                "PackageType": "Zip",
+                "Architectures": [
+                    "x86_64"
+                ],
+                "EphemeralStorage": {
+                    "Size": 512
+                },
+                "SnapStart": {
+                    "ApplyOn": "None",
+                    "OptimizationStatus": "Off"
+                },
+                "RuntimeVersionConfig": {
+                    "RuntimeVersionArn": "arn:aws:lambda:eu-west-1::runtime:9d084cce5cc7578c503eb8fe4bf7891c94c8f5f0ccb036f3f8c3a01cf5212db6"
+                }
+            },
+            "Code": {
+                "RepositoryType": "S3",
+                "Location": "https://awslambda-eu-west-1-tasks.s3.eu-west-1.amazonaws.com/snapshots/376129861747/cmtr-5d524740-sqs_handler-44005327-dbe1-4d68-b1c2-c9bd47d09d84?versionId=gyaK9wL2hDx8Spy0Lt16acKZ9u5iLI4D&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaCWV1LXdlc3QtMSJIMEYCIQCLeh3QW0RJnHhkOczFI85zGTmBC5qBfK702i8wzv77VwIhAMnsgDYVDPpTOq16E0kPLHOBuu2Dob%2FbVNvXIXTBK0RmKpICCJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMOTU0MzY5MDgyNTExIgxZfCE4WRjzMz%2Bt7Pgq5gFa6HMFQF0JgLr2CXzY6MrJyNKtkdx7ukhPu07mcgaCMKCR5kCPE%2BJzEDfkTrHkn0vD2snsLekBGrpBaKBKxm1hxLHNe00wKjGj1W3SsTO63aYdp%2BXRr7fkwH40Soe%2Fh%2FnTi%2FczMbkTItHMlM2I7AFETb4lp%2F8vnGb8rcK9N7qw3SH8wGVG43zbxdWDlxqoXaseAKRUGlRyrN2qjU%2B56cDTFvS9PowpPbUrqs%2BhUDfvx%2Ba4GDYV%2Bu%2F5D1TGiRNMuRec%2FkZdmv6nabfqfonsTO5k5Ww7oDEZR7pQsz8L6xBO0ykg9oB5JzD4%2Fr2%2BBjqOAf7nmbARtTstQZkwN3ULunCQGUSEgx47fbzLpalXZQMB5cpPJZUMU5flndelTe4005xL9dM%2FtnDrXKHa%2Fik9%2FdOzXHJJl7o0W%2Fppbx3qnCivltD0HhrxF1d2lvQEK%2FV4%2BgGR3E6nCrC6jVSK%2BNwoULIiCvoV0VLD8X9OLxY1h82ymdcv5e3Li%2BzIkOS4H4E%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250311T093318Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA54NGUQSH6VXCGHTH%2F20250311%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=1cd9b0c290a7f49ddb673702bd435fdbb2a2026c6cfe7ba7e38d3b5a3c12a253"
+            },
+            "Tags": {
+                "run_id": "JAP-08",
+                "user_id": "5d524740",
+                "run_type": "stm",
+                "type": "user"
+            }
+        }
+    }
+}
+2025-03-12 12:35:09,129 [INFO] USER:gongatyvincy_grace deployment_processor.py:466:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved
+2025-03-12 12:35:09,130 [INFO] USER:gongatyvincy_grace deployment_processor.py:489:create_deployment_resources LOG: Going to deploy AWS resources
+2025-03-12 12:35:09,395 [INFO] USER:gongatyvincy_grace deployment_processor.py:74:_process_resources LOG: Processing iam_policy resources
+2025-03-12 12:35:11,317 [WARNING] USER:gongatyvincy_grace iam_resource.py:115:_create_policy_from_meta LOG: IAM policy cmtr-5d524740-lambda-basic-execution exists.
+2025-03-12 12:35:11,818 [INFO] USER:gongatyvincy_grace deployment_processor.py:74:_process_resources LOG: Processing iam_role resources
+2025-03-12 12:35:12,147 [WARNING] USER:gongatyvincy_grace iam_resource.py:141:_create_role_from_meta LOG: IAM role cmtr-5d524740-sqs_handler-role exists.
+2025-03-12 12:35:13,353 [WARNING] USER:gongatyvincy_grace iam_resource.py:141:_create_role_from_meta LOG: IAM role cmtr-5d524740-sns_handler-role exists.
+2025-03-12 12:35:13,354 [INFO] USER:gongatyvincy_grace deployment_processor.py:74:_process_resources LOG: Processing sns_topic resources
+2025-03-12 12:35:14,827 [INFO] USER:gongatyvincy_grace sns_resource.py:156:_create_sns_topic_from_meta LOG: SNS topic cmtr-5d524740-lambda_topic in region eu-west-1 created.
+2025-03-12 12:35:14,997 [INFO] USER:gongatyvincy_grace deployment_processor.py:88:_process_resources LOG: Processing sqs_queue resources
+2025-03-12 12:35:16,321 [WARNING] USER:gongatyvincy_grace sqs_resource.py:104:_create_sqs_queue_from_meta LOG: SQS queue cmtr-5d524740-async_queue exists.
+2025-03-12 12:35:17,552 [WARNING] USER:gongatyvincy_grace bundle_processor.py:110:remove_failed_deploy_output LOG: Failed output file for deploy aws-vincy does not exist
+2025-03-12 12:35:17,552 [INFO] USER:gongatyvincy_grace deployment_processor.py:540:create_deployment_resources LOG: AWS resources were deployed successfully
+2025-03-12 12:35:17,553 [INFO] USER:gongatyvincy_grace deployment_processor.py:543:create_deployment_resources LOG: Going to apply dynamic changes
+2025-03-12 12:35:17,553 [INFO] USER:gongatyvincy_grace deployment_processor.py:545:create_deployment_resources LOG: Dynamic changes were applied successfully
+2025-03-12 12:35:17,553 [INFO] USER:gongatyvincy_grace deployment_processor.py:547:create_deployment_resources LOG: Going to apply post deployment tags
+2025-03-12 12:35:17,562 [INFO] USER:gongatyvincy_grace group_tagging_api_resource.py:135:apply_tags LOG: Tags were successfully applied
+2025-03-12 12:35:17,562 [INFO] USER:gongatyvincy_grace deployment_processor.py:550:create_deployment_resources LOG: Going to create deploy output
+2025-03-12 12:35:18,170 [INFO] USER:gongatyvincy_grace bundle_processor.py:71:create_deploy_output LOG: Output file with name AWS_Vincy_250312.123442/outputs/aws-vincy.json has been created
+2025-03-12 12:35:18,170 [INFO] USER:gongatyvincy_grace deployment_processor.py:560:create_deployment_resources LOG: Deploy output for aws-vincy was created.
+2025-03-12 12:35:18,171 [INFO] USER:gongatyvincy_grace handlers.py:347:deploy LOG: Backend resources were deployed.
+2025-03-12 12:35:18,172 [INFO] USER:gongatyvincy_grace helper.py:330:timed LOG: Stage deploy, elapsed time: 0:00:11.525918
+2025-03-12 12:35:19,068 [INFO] USER:gongatyvincy_grace project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 12:35:19,069 [INFO] USER:gongatyvincy_grace project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 12:35:19,701 [INFO] USER:gongatyvincy_grace sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
