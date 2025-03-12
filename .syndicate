@@ -5,6 +5,39 @@ locks:
     is_locked: false
     initiator: gongatyvincy_grace
 events:
+- operation: package_meta
+  initiator: gongatyvincy_grace
+  bundle_name: AWS_Vincy_250312.150014
+  time_start: '2025-03-12T15:00:16Z'
+  time_end: '2025-03-12T15:00:16Z'
+  duration_sec: 0.034
+  status: failed
+- operation: assemble
+  initiator: gongatyvincy_grace
+  bundle_name: AWS_Vincy_250312.150014
+  time_start: '2025-03-12T15:00:16Z'
+  time_end: '2025-03-12T15:00:16Z'
+  duration_sec: 0.002
+  status: succeeded
+- operation: test
+  initiator: gongatyvincy_grace
+  time_start: '2025-03-12T15:00:16Z'
+  time_end: '2025-03-12T15:00:16Z'
+  duration_sec: 0.002
+  status: succeeded
+- operation: assemble_java_mvn
+  initiator: gongatyvincy_grace
+  bundle_name: task05_250312.143200
+  time_start: '2025-03-12T14:32:01Z'
+  time_end: '2025-03-12T14:32:01Z'
+  duration_sec: 0.029
+  status: failed
+- operation: test
+  initiator: gongatyvincy_grace
+  time_start: '2025-03-12T14:32:01Z'
+  time_end: '2025-03-12T14:32:01Z'
+  duration_sec: 0.002
+  status: succeeded
 - operation: deploy
   initiator: gongatyvincy_grace
   bundle_name: AWS_Vincy_250312.123442

@@ -478,3 +478,71 @@
 2025-03-12 12:35:19,068 [INFO] USER:gongatyvincy_grace project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
 2025-03-12 12:35:19,069 [INFO] USER:gongatyvincy_grace project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
 2025-03-12 12:35:19,701 [INFO] USER:gongatyvincy_grace sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:00:10,198 [INFO] USER:gongatyvincy_grace handlers.py:106:syndicate LOG: Configuration used: C:\Grace_Vincy\AWS\AWS_Vincy\.syndicate-config-dev
+2025-03-12 15:00:12,488 [INFO] USER:gongatyvincy_grace processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 15:00:13,920 [INFO] USER:gongatyvincy_grace project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:00:13,920 [INFO] USER:gongatyvincy_grace project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:00:14,748 [INFO] USER:gongatyvincy_grace sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:00:16,489 [INFO] USER:gongatyvincy_grace handlers.py:142:test LOG: Running tests...
+2025-03-12 15:00:16,490 [INFO] USER:gongatyvincy_grace handlers.py:150:test LOG: Tests not found, 'tests' folder is missing in 'C:/Grace_Vincy/AWS/AWS_Vincy'.
+2025-03-12 15:00:16,491 [INFO] USER:gongatyvincy_grace helper.py:330:timed LOG: Stage test, elapsed time: 0:00:00.002272
+2025-03-12 15:00:16,554 [INFO] USER:gongatyvincy_grace handlers.py:993:assemble LOG: Building artifacts, bundle: AWS_Vincy_250312.150014
+2025-03-12 15:00:16,555 [INFO] USER:gongatyvincy_grace project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Grace_Vincy\AWS\AWS_Vincy\jsrc\main\java\com\AWSVincy.
+2025-03-12 15:00:16,555 [INFO] USER:gongatyvincy_grace project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Grace_Vincy\AWS\AWS_Vincy\src\lambdas.
+2025-03-12 15:00:16,555 [INFO] USER:gongatyvincy_grace project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Grace_Vincy\AWS\AWS_Vincy\app\lambdas.
+2025-03-12 15:00:16,555 [INFO] USER:gongatyvincy_grace project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Grace_Vincy\AWS\AWS_Vincy\dnapp\lambdas.
+2025-03-12 15:00:16,556 [INFO] USER:gongatyvincy_grace project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Grace_Vincy\AWS\AWS_Vincy\swagger_src.
+2025-03-12 15:00:16,556 [INFO] USER:gongatyvincy_grace project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Grace_Vincy\AWS\AWS_Vincy\appsync_src.
+2025-03-12 15:00:16,556 [INFO] USER:gongatyvincy_grace handlers.py:1014:assemble LOG: Resources for which artifacts need to be built were not found
+2025-03-12 15:00:16,556 [INFO] USER:gongatyvincy_grace helper.py:330:timed LOG: Stage assemble, elapsed time: 0:00:00.002056
+2025-03-12 15:00:16,613 [INFO] USER:gongatyvincy_grace handlers.py:1037:package_meta LOG: Package meta, bundle: AWS_Vincy_250312.150014
+2025-03-12 15:00:16,613 [INFO] USER:gongatyvincy_grace meta_processor.py:513:create_meta LOG: Bundle path: C:/Grace_Vincy/AWS/AWS_Vincy/bundles/AWS_Vincy_250312.150014
+2025-03-12 15:00:16,623 [ERROR] USER:gongatyvincy_grace helper.py:88:wrapper LOG: An error occurred: Two resources with equal names were found! Name: 'lambda-basic-execution', first resource type: 'iam_policy', second resource type: 'iam_policy'. 
+Please, rename one of them!
+2025-03-12 15:00:16,645 [ERROR] USER:gongatyvincy_grace helper.py:89:wrapper LOG: Traceback (most recent call last):
+  File "C:\Users\gongatyvincy_grace\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\helper.py", line 86, in wrapper
+    return handler_func(*args, **kwargs)
+  File "C:\Users\gongatyvincy_grace\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\handlers.py", line 1038, in package_meta
+    create_meta(project_path=CONFIG.project_path,
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                bundle_name=bundle_name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gongatyvincy_grace\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\build\meta_processor.py", line 514, in create_meta
+    overall_meta = create_resource_json(project_path=project_path,
+                                        bundle_name=bundle_name)
+  File "C:\Users\gongatyvincy_grace\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\build\meta_processor.py", line 452, in create_resource_json
+    _look_for_configs(nested_items, resources_meta, path, bundle_name)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gongatyvincy_grace\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\build\meta_processor.py", line 431, in _look_for_configs
+    res = _check_duplicated_resources(resources_meta,
+                                      resource_name, resource)
+  File "C:\Users\gongatyvincy_grace\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\build\meta_processor.py", line 197, in _check_duplicated_resources
+    raise AssertionError(
+    ...<4 lines>...
+    )
+AssertionError: Two resources with equal names were found! Name: 'lambda-basic-execution', first resource type: 'iam_policy', second resource type: 'iam_policy'. 
+Please, rename one of them!
+Traceback (most recent call last):
+  File "C:\Users\gongatyvincy_grace\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\helper.py", line 86, in wrapper
+    return handler_func(*args, **kwargs)
+  File "C:\Users\gongatyvincy_grace\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\handlers.py", line 1038, in package_meta
+    create_meta(project_path=CONFIG.project_path,
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                bundle_name=bundle_name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gongatyvincy_grace\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\build\meta_processor.py", line 514, in create_meta
+    overall_meta = create_resource_json(project_path=project_path,
+                                        bundle_name=bundle_name)
+  File "C:\Users\gongatyvincy_grace\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\build\meta_processor.py", line 452, in create_resource_json
+    _look_for_configs(nested_items, resources_meta, path, bundle_name)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gongatyvincy_grace\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\build\meta_processor.py", line 431, in _look_for_configs
+    res = _check_duplicated_resources(resources_meta,
+                                      resource_name, resource)
+  File "C:\Users\gongatyvincy_grace\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\build\meta_processor.py", line 197, in _check_duplicated_resources
+    raise AssertionError(
+    ...<4 lines>...
+    )
+AssertionError: Two resources with equal names were found! Name: 'lambda-basic-execution', first resource type: 'iam_policy', second resource type: 'iam_policy'. 
+Please, rename one of them!
+2025-03-12 15:00:16,647 [INFO] USER:gongatyvincy_grace helper.py:330:timed LOG: Stage package_meta, elapsed time: 0:00:00.034313
