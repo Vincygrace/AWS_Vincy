@@ -9,7 +9,7 @@
     "allowed_account": "196241772369",
     "tags": {}
   },
-  "uuid_generator": {
+  "uuid_generator_v2": {
     "resource_type": "lambda",
     "runtime": "nodejs18.x",
     "handler": "index.handler",
