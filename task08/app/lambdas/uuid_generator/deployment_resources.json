@@ -8,5 +8,19 @@
     "resource_type": "iam_role",
     "allowed_account": "196241772369",
     "tags": {}
+  },
+  "uuid_generator": {
+    "resource_type": "lambda",
+    "runtime": "nodejs18.x",
+    "handler": "index.handler",
+    "role": "uuid_generator-role",
+    "environment": {
+      "variables": {
+        "TARGET_BUCKET": "uuid-storage"
+      }
+    },
+    "memory_size": 128,
+    "timeout": 30,
+    "tags": {}
   }
 }
